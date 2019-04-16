@@ -1,0 +1,724 @@
+#my {
+  background-color: #FCFCFC;
+  padding-top: 1px;
+  height: calc(40vh);
+}
+@media screen and (min-width: 992px) {
+  #my .my-table {
+    padding: 10px;
+  }
+  #my .my-table .wrap {
+    max-width: 1080px;
+    min-width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+  }
+  #my .my-table .wrap .my-left {
+    margin-right: 30px;
+    flex: 1;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header {
+    height: 150px;
+    background-size: cover;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out img {
+    height: 100%;
+    width: 100%;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-name {
+    width: 100%;
+    font-size: 16px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-sign {
+    font-weight: normal;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow {
+    background-color: #3B4448;
+    height: 70px;
+    display: flex;
+    padding: 15px 0 15px 0;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:hover .follow-title {
+    color: #3E90CA;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:nth-child(2) {
+    border-left: 1px solid #4A565B;
+    border-right: 1px solid #4A565B;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item span {
+    display: block;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-num {
+    font-size: 14px;
+    color: #3E90CA;
+    font-weight: bold;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-title {
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .manage-info {
+    padding: 10px 0 5px 0;
+    text-align: center;
+    height: 50px;
+    background-color: #4A565B;
+  }
+  #my .my-table .wrap .my-left .strange {
+    margin-top: 20px;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item {
+    display: flex;
+    margin-bottom: 15px;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item .item-left {
+    flex: 1;
+    margin-right: 20px;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item .item-left .user-pic img {
+    width: 60px;
+    height: 60px;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item .item-middle {
+    flex: 4;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item .item-middle .username {
+    margin-bottom: 10px;
+    color: #70838B;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  #my .my-table .wrap .my-left .strange .strange-list .strange-item .item-right {
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right {
+    flex: 2;
+    margin-bottom: 20px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .ivu-card-head {
+    background-color: #F3F7F8;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .ivu-card-head p {
+    color: #70838B;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .noBlog {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left {
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right {
+    flex: 9;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info {
+    margin-bottom: 3px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .date {
+    color: #808080;
+    font-size: 10px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete {
+    cursor: pointer;
+    float: right;
+    color: #808080;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete:hover {
+    color: #cf0f0f;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .ivu-card-head,
+  #my .my-table .wrap .my-right #myFollower .follow-table .ivu-card-head {
+    background-color: #F3F7F8;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .ivu-card-head p,
+  #my .my-table .wrap .my-right #myFollower .follow-table .ivu-card-head p {
+    color: #70838B;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .no-follow,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .no-follow {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    border-bottom: 1px solid #dddbdb;
+    margin-bottom: 20px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item:last-child,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left {
+    margin-right: 10px;
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic {
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic img,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle {
+    flex: 12;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .username,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .username {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .sign,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .sign {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-right,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-right {
+    flex: 2;
+  }
+  #my .no-login {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+  #my .no-login .no-login-card {
+    width: 600px;
+    margin: 10% auto;
+  }
+  #my .no-login .no-login-card .content {
+    width: 500px;
+    margin: 0 auto;
+  }
+  #my .no-login .no-login-card .content .content-info {
+    text-align: center;
+    color: #1ea8e3;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text {
+    line-height: 30px;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text p {
+    vertical-align: top;
+    display: inline-block;
+  }
+  #my .no-login .no-login-card .content .content-info .content-btn button {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 481px) {
+  #my .my-table .wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header {
+    height: 150px;
+    background-size: cover;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out img {
+    height: 100%;
+    width: 100%;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-name {
+    width: 100%;
+    font-size: 16px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-sign {
+    font-weight: normal;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow {
+    background-color: #3B4448;
+    height: 70px;
+    display: flex;
+    padding: 15px 0 15px 0;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:hover .follow-title {
+    color: #3E90CA;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:nth-child(2) {
+    border-left: 1px solid #4A565B;
+    border-right: 1px solid #4A565B;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item span {
+    display: block;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-num {
+    font-size: 14px;
+    color: #3E90CA;
+    font-weight: bold;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-title {
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .manage-info {
+    display: none;
+  }
+  #my .my-table .wrap .my-left .strange {
+    display: none;
+  }
+  #my .my-table .wrap .my-right {
+    width: 100%;
+  }
+  #my .my-table .wrap .my-right #myBlog {
+    width: 100%;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .ivu-card-head {
+    display: none;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .noBlog {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left {
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left .user-pic {
+    margin-right: 10px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right {
+    flex: 9;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info {
+    margin-bottom: 3px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .date {
+    color: #808080;
+    font-size: 10px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete {
+    cursor: pointer;
+    float: right;
+    color: #808080;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete:hover {
+    color: #cf0f0f;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .ivu-card-head,
+  #my .my-table .wrap .my-right #myFollower .follow-table .ivu-card-head {
+    display: none;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .no-follow,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .no-follow {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    border-bottom: 1px solid #dddbdb;
+    margin-bottom: 20px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item:last-child,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left {
+    margin-right: 10px;
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic {
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic img,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle {
+    flex: 12;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .username,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .username {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .sign,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .sign {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-right,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-right {
+    flex: 2;
+  }
+  #my .no-login {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-100%);
+  }
+  #my .no-login .no-login-card {
+    width: 450px;
+    margin: 10% auto;
+  }
+  #my .no-login .no-login-card .content {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #my .no-login .no-login-card .content .content-info {
+    text-align: center;
+    color: #1ea8e3;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text {
+    line-height: 30px;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text p {
+    vertical-align: top;
+    display: inline-block;
+  }
+  #my .no-login .no-login-card .content .content-info .content-btn button {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #my .my-table .wrap {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header {
+    height: 150px;
+    background-size: cover;
+    padding-top: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 2px #000000;
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic {
+    width: 100%;
+    height: 80px;
+    margin-bottom: 5px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    border: 5px solid #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-pic .pic-out img {
+    height: 100%;
+    width: 100%;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-name {
+    width: 100%;
+    font-size: 16px;
+  }
+  #my .my-table .wrap .my-left .my-info .my-header .my-sign {
+    font-weight: normal;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow {
+    background-color: #3B4448;
+    height: 60px;
+    display: flex;
+    padding: 10px 0 5px 0;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item {
+    flex: 1;
+    text-align: center;
+    cursor: pointer;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:hover .follow-title {
+    color: #3E90CA;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item:nth-child(2) {
+    border-left: 1px solid #4A565B;
+    border-right: 1px solid #4A565B;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item span {
+    display: block;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-num {
+    font-size: 14px;
+    color: #3E90CA;
+    font-weight: bold;
+  }
+  #my .my-table .wrap .my-left .my-info .my-follow .follow-item .follow-title {
+    color: #fff;
+  }
+  #my .my-table .wrap .my-left .my-info .manage-info {
+    display: none;
+  }
+  #my .my-table .wrap .my-left .strange {
+    display: none;
+  }
+  #my .my-table .wrap .my-right {
+    width: 100%;
+  }
+  #my .my-table .wrap .my-right #myBlog {
+    width: 100%;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .ivu-card-head {
+    display: none;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .noBlog {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left {
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left .user-pic {
+    margin-right: 10px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right {
+    flex: 9;
+    font-size: 13px;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info {
+    margin-bottom: 3px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .username {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .date {
+    color: #808080;
+    font-size: 10px;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete {
+    cursor: pointer;
+    float: right;
+    color: #808080;
+  }
+  #my .my-table .wrap .my-right #myBlog .blog-table .blog-list .blog-item .item-right .blog-info .delete:hover {
+    color: #cf0f0f;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .ivu-card-head,
+  #my .my-table .wrap .my-right #myFollower .follow-table .ivu-card-head {
+    display: none;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .no-follow,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .no-follow {
+    text-align: center;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item {
+    display: flex;
+    padding-bottom: 15px;
+    align-items: center;
+    border-bottom: 1px solid #dddbdb;
+    margin-bottom: 20px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item:last-child,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left {
+    margin-right: 10px;
+    flex: 1;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic {
+    text-align: center;
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-left .user-pic img,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-left .user-pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle {
+    flex: 12;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .username,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .username {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-middle .sign,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-middle .sign {
+    margin-top: 3px;
+    font-size: 12px;
+  }
+  #my .my-table .wrap .my-right #myFollow .follow-table .follow-list .follow-item .item-right,
+  #my .my-table .wrap .my-right #myFollower .follow-table .follow-list .follow-item .item-right {
+    flex: 2;
+  }
+  #my .no-login {
+    width: 100%;
+    height: 100%;
+  }
+  #my .no-login .no-login-card {
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+  }
+  #my .no-login .no-login-card .content {
+    width: 100%;
+  }
+  #my .no-login .no-login-card .content .content-info {
+    text-align: center;
+    color: #1ea8e3;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px 0 30px 0;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text {
+    line-height: 30px;
+  }
+  #my .no-login .no-login-card .content .content-info .content-text p {
+    vertical-align: top;
+    display: inline-block;
+  }
+  #my .no-login .no-login-card .content .content-info .content-btn button {
+    margin-top: 20px;
+  }
+}
+.mod-table {
+  display: flex;
+}
+.mod-table .mod-left {
+  flex: 2;
+  border-right: 1px solid #dde1e2;
+  padding: 0 30px 0 10px;
+}
+.mod-table .mod-left .user-pic {
+  margin-bottom: 10px;
+}
+.mod-table .mod-right {
+  flex: 8;
+  margin-left: 20px;
+}
+.demo-spin-icon-load {
+  animation: ani-demo-spin 1s linear infinite;
+}
+@keyframes ani-demo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.demo-spin-col {
+  height: 100px;
+  position: relative;
+}
+.male,
+.female {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+}
+.male {
+  background-color: #4EBDF9;
+}
+.female {
+  background-color: #D07156;
+}

@@ -1,0 +1,407 @@
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+   color: #CED0D1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #CED0D1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #CED0D1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #CED0D1;
+}
+
+
+
+@media screen and (min-width: 992px){
+	.bl-nav{
+		width: 100%;
+		height: 100%;
+		.outside{
+			.ivu-affix{
+				width: 100% !important;
+			}
+		}
+		.nav{
+			width: 100%;
+			height: 100%;
+			background-color: #3B4448;
+			height: 60px;
+			.wrap{
+				width: 95%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+	
+				.nav-left{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex: 3;
+	
+					.ivu-menu-primary {
+						background: #3B4448;
+					}
+	
+					.ivu-menu-item-active{
+						background-color: #31393C;
+						color: #3e90ca;
+					}
+	
+					.ivu-menu-item{
+						&:hover{
+							background-color: #31393C;
+						}
+					}
+
+					.menuBtn{
+						display: none;
+					}
+				}
+	
+				.bl-logo{
+					display: flex;
+					height: 100%;
+					flex: 2;
+					align-items: center;
+				}
+	
+				.bl-search{
+					background-color: #4A565B;
+					width: 250px;
+					height: 25px;
+					border-radius: 15px;
+					padding: 0 10px 0 10px;
+					display: flex;
+					box-shadow: 0 -1px 3px #4A565B;
+					align-items: center;
+	
+					input{
+						width: 90%;
+						background-color: #4A565B;
+						color: #CED0D1;
+					}
+	
+					button{
+						cursor: pointer;
+						height: 100%;
+						width: 10%;
+						color: #CED0D1;
+						background-color: #4A565B;
+					}
+				}
+	
+				.bl-user{
+					display: flex;
+					width: 100px;
+					margin-left: 20px;
+					div{
+						font-size: 12px;
+						flex: 1;
+						text-align: center;
+						
+						&:nth-child(1){
+							border-right: 1px solid #4A565B;
+						}
+	
+						span{	
+							cursor: pointer;
+							color: #fff;
+						}
+					}
+				}
+	
+				.bl-logined{
+					text-align: center;
+					font-size: 14px;
+					color: #fff;
+					width: 110px;
+					margin-left: 30px;
+					.username{
+						display: block;
+						white-space: nowrap;
+						overflow: hidden;
+						text-overflow: ellipsis;
+						max-width: 55px;
+						float: left;
+					}
+					.ivu-dropdown{
+						margin-left: 5px;
+						.ivu-dropdown-rel{
+							a{
+								color: #fff;
+								&:hover{
+									color: #3e90ca;
+								}
+							}
+						}
+					}
+				}
+
+				.post{
+					display: none;
+				}
+			}
+		}
+	}
+	.ivu-drawer-mask,.ivu-drawer-wrap{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.bl-nav{
+		width: 100%;
+		height: 100%;
+		.ivu-affix{
+			width: 100% !important;
+		}
+		.nav{
+			width: 100%;
+			height: 100%;
+			background-color: #3B4448;
+			height: 60px;
+			.wrap{
+				width: 95%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+	
+				.nav-left{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex: 3;
+	
+					.ivu-menu-primary{
+						display: none;
+					}
+				}
+				
+				// .menuBtn{
+				// 	display: none;
+				// }
+
+				.bl-logo{
+					display: flex;
+					height: 100%;
+					flex: 3;
+					align-items: center;
+				}
+	
+				.bl-search{
+					background-color: #4A565B;
+					width: 250px;
+					height: 25px;
+					border-radius: 15px;
+					padding: 0 10px 0 10px;
+					display: flex;
+					box-shadow: 0 -1px 3px #4A565B;
+					align-items: center;
+	
+					input{
+						width: 90%;
+						background-color: #4A565B;
+						color: #CED0D1;
+					}
+	
+					button{
+						cursor: pointer;
+						height: 100%;
+						width: 10%;
+						color: #CED0D1;
+						background-color: #4A565B;
+					}
+				}
+	
+				.bl-user{
+					display: flex;
+					width: 100px;
+					margin-left: 20px;
+					div{
+						font-size: 12px;
+						flex: 1;
+						text-align: center;
+						
+						&:nth-child(1){
+							border-right: 1px solid #4A565B;
+						}
+	
+						span{	
+							cursor: pointer;
+							color: #fff;
+						}
+					}
+				}
+	
+				.bl-logined{
+					display: none;
+				}
+
+				.post{
+					cursor: pointer;
+					text-align: right;
+					width: 50px;
+					color: #fff;
+					&:hover{
+						color: #1ea8e3;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width:480px){
+	.bl-nav{
+		width: 100%;
+		height: 100%;
+		.ivu-affix{
+			width: 100% !important;
+		}
+		.nav{
+			width: 100%;
+			height: 100%;
+			background-color: #3B4448;
+			height: 60px;
+			.wrap{
+				width: 95%;
+				height: 100%;
+				margin: 0 auto;
+				display: flex;
+				align-items: center;
+	
+				.nav-left{
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					flex: 3;
+	
+					.ivu-menu-primary{
+						display: none;
+					}
+				}
+
+				.bl-logo{
+					display: none;
+				}
+	
+				.bl-search{
+					flex: 6;
+					background-color: #4A565B;
+					width: 250px;
+					height: 25px;
+					border-radius: 15px;
+					padding: 0 10px 0 10px;
+					display: flex;
+					box-shadow: 0 -1px 3px #4A565B;
+					align-items: center;
+	
+					input{
+						width: 90%;
+						background-color: #4A565B;
+						color: #CED0D1;
+					}
+	
+					button{
+						cursor: pointer;
+						height: 100%;
+						width: 10%;
+						color: #CED0D1;
+						background-color: #4A565B;
+					}
+				}
+	
+				.bl-user{
+					display: flex;
+					width: 100px;
+					margin-left: 20px;
+					div{
+						font-size: 12px;
+						flex: 1;
+						text-align: center;
+						
+						&:nth-child(1){
+							border-right: 1px solid #4A565B;
+						}
+	
+						span{	
+							cursor: pointer;
+							color: #fff;
+						}
+					}
+				}
+	
+				.bl-logined{
+					display: none;
+				}
+
+				.post{
+					cursor: pointer;
+					text-align: right;
+					width: 50px;
+					color: #fff;
+					&:hover{
+						color: #1ea8e3;
+					}
+				}
+			}
+		}
+	}
+}
+
+.bl-post{
+	.inputArea{
+		margin-bottom: 10px;
+	}
+	.contentLen{
+		font-size: 13px;
+		text-align: right;
+		font-weight: bold;
+	}
+
+	.emoji-invoker{
+		cursor: pointer;
+		float: left;
+	}
+
+	button{
+		float: right;
+	}
+	
+	.emoji_frame{
+		text-align: left;
+		line-height: normal;
+		left: 40px;
+		top: 230px;
+		z-index: 2;
+		position: absolute;
+		background: #fff;
+		width: 300px;
+		max-height: 300px;
+
+		.ivu-tabs-tabpane{
+			max-height: 225px;
+			padding-left: 10px;
+			overflow-y: auto;
+
+			.emojiSpan{
+				cursor: pointer;
+				text-align: center;
+				display: inline-block;
+				width: 20px;
+				margin: 0 5px 5px 0;
+			}
+		}
+	}
+}
+
+.exit{
+	cursor: pointer;
+	height: 30px;
+	margin-top:20px;
+	text-align:center;
+	line-height: 30px;
+}

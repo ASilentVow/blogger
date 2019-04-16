@@ -1,0 +1,352 @@
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #CED0D1;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #CED0D1;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #CED0D1;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #CED0D1;
+}
+@media screen and (min-width: 992px) {
+  .bl-nav {
+    width: 100%;
+    height: 100%;
+  }
+  .bl-nav .outside .ivu-affix {
+    width: 100% !important;
+  }
+  .bl-nav .nav {
+    width: 100%;
+    height: 100%;
+    background-color: #3B4448;
+    height: 60px;
+  }
+  .bl-nav .nav .wrap {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+  }
+  .bl-nav .nav .wrap .nav-left .ivu-menu-primary {
+    background: #3B4448;
+  }
+  .bl-nav .nav .wrap .nav-left .ivu-menu-item-active {
+    background-color: #31393C;
+    color: #3e90ca;
+  }
+  .bl-nav .nav .wrap .nav-left .ivu-menu-item:hover {
+    background-color: #31393C;
+  }
+  .bl-nav .nav .wrap .nav-left .menuBtn {
+    display: none;
+  }
+  .bl-nav .nav .wrap .bl-logo {
+    display: flex;
+    height: 100%;
+    flex: 2;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .bl-search {
+    background-color: #4A565B;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    box-shadow: 0 -1px 3px #4A565B;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .bl-search input {
+    width: 90%;
+    background-color: #4A565B;
+    color: #CED0D1;
+  }
+  .bl-nav .nav .wrap .bl-search button {
+    cursor: pointer;
+    height: 100%;
+    width: 10%;
+    color: #CED0D1;
+    background-color: #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user {
+    display: flex;
+    width: 100px;
+    margin-left: 20px;
+  }
+  .bl-nav .nav .wrap .bl-user div {
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+  }
+  .bl-nav .nav .wrap .bl-user div:nth-child(1) {
+    border-right: 1px solid #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user div span {
+    cursor: pointer;
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .bl-logined {
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    width: 110px;
+    margin-left: 30px;
+  }
+  .bl-nav .nav .wrap .bl-logined .username {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 55px;
+    float: left;
+  }
+  .bl-nav .nav .wrap .bl-logined .ivu-dropdown {
+    margin-left: 5px;
+  }
+  .bl-nav .nav .wrap .bl-logined .ivu-dropdown .ivu-dropdown-rel a {
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .bl-logined .ivu-dropdown .ivu-dropdown-rel a:hover {
+    color: #3e90ca;
+  }
+  .bl-nav .nav .wrap .post {
+    display: none;
+  }
+  .ivu-drawer-mask,
+  .ivu-drawer-wrap {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+  .bl-nav {
+    width: 100%;
+    height: 100%;
+  }
+  .bl-nav .ivu-affix {
+    width: 100% !important;
+  }
+  .bl-nav .nav {
+    width: 100%;
+    height: 100%;
+    background-color: #3B4448;
+    height: 60px;
+  }
+  .bl-nav .nav .wrap {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+  }
+  .bl-nav .nav .wrap .nav-left .ivu-menu-primary {
+    display: none;
+  }
+  .bl-nav .nav .wrap .bl-logo {
+    display: flex;
+    height: 100%;
+    flex: 3;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .bl-search {
+    background-color: #4A565B;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    box-shadow: 0 -1px 3px #4A565B;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .bl-search input {
+    width: 90%;
+    background-color: #4A565B;
+    color: #CED0D1;
+  }
+  .bl-nav .nav .wrap .bl-search button {
+    cursor: pointer;
+    height: 100%;
+    width: 10%;
+    color: #CED0D1;
+    background-color: #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user {
+    display: flex;
+    width: 100px;
+    margin-left: 20px;
+  }
+  .bl-nav .nav .wrap .bl-user div {
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+  }
+  .bl-nav .nav .wrap .bl-user div:nth-child(1) {
+    border-right: 1px solid #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user div span {
+    cursor: pointer;
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .bl-logined {
+    display: none;
+  }
+  .bl-nav .nav .wrap .post {
+    cursor: pointer;
+    text-align: right;
+    width: 50px;
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .post:hover {
+    color: #1ea8e3;
+  }
+}
+@media screen and (max-width: 480px) {
+  .bl-nav {
+    width: 100%;
+    height: 100%;
+  }
+  .bl-nav .ivu-affix {
+    width: 100% !important;
+  }
+  .bl-nav .nav {
+    width: 100%;
+    height: 100%;
+    background-color: #3B4448;
+    height: 60px;
+  }
+  .bl-nav .nav .wrap {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+  }
+  .bl-nav .nav .wrap .nav-left .ivu-menu-primary {
+    display: none;
+  }
+  .bl-nav .nav .wrap .bl-logo {
+    display: none;
+  }
+  .bl-nav .nav .wrap .bl-search {
+    flex: 6;
+    background-color: #4A565B;
+    width: 250px;
+    height: 25px;
+    border-radius: 15px;
+    padding: 0 10px 0 10px;
+    display: flex;
+    box-shadow: 0 -1px 3px #4A565B;
+    align-items: center;
+  }
+  .bl-nav .nav .wrap .bl-search input {
+    width: 90%;
+    background-color: #4A565B;
+    color: #CED0D1;
+  }
+  .bl-nav .nav .wrap .bl-search button {
+    cursor: pointer;
+    height: 100%;
+    width: 10%;
+    color: #CED0D1;
+    background-color: #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user {
+    display: flex;
+    width: 100px;
+    margin-left: 20px;
+  }
+  .bl-nav .nav .wrap .bl-user div {
+    font-size: 12px;
+    flex: 1;
+    text-align: center;
+  }
+  .bl-nav .nav .wrap .bl-user div:nth-child(1) {
+    border-right: 1px solid #4A565B;
+  }
+  .bl-nav .nav .wrap .bl-user div span {
+    cursor: pointer;
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .bl-logined {
+    display: none;
+  }
+  .bl-nav .nav .wrap .post {
+    cursor: pointer;
+    text-align: right;
+    width: 50px;
+    color: #fff;
+  }
+  .bl-nav .nav .wrap .post:hover {
+    color: #1ea8e3;
+  }
+}
+.bl-post .inputArea {
+  margin-bottom: 10px;
+}
+.bl-post .contentLen {
+  font-size: 13px;
+  text-align: right;
+  font-weight: bold;
+}
+.bl-post .emoji-invoker {
+  cursor: pointer;
+  float: left;
+}
+.bl-post button {
+  float: right;
+}
+.bl-post .emoji_frame {
+  text-align: left;
+  line-height: normal;
+  left: 40px;
+  top: 230px;
+  z-index: 2;
+  position: absolute;
+  background: #fff;
+  width: 300px;
+  max-height: 300px;
+}
+.bl-post .emoji_frame .ivu-tabs-tabpane {
+  max-height: 225px;
+  padding-left: 10px;
+  overflow-y: auto;
+}
+.bl-post .emoji_frame .ivu-tabs-tabpane .emojiSpan {
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  width: 20px;
+  margin: 0 5px 5px 0;
+}
+.exit {
+  cursor: pointer;
+  height: 30px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 30px;
+}
